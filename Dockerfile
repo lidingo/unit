@@ -5,6 +5,6 @@ COPY ./*.json /docker-entrypoint.d/
 #COPY ./*.sh   /docker-entrypoint.d/
 
 WORKDIR /www
-COPY asgi.py /www/
+COPY *.py /www/
 
 EXPOSE 8080
