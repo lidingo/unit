@@ -1,0 +1,14 @@
+{
+  "listeners": {
+    "*:8080": {
+      "pass": "applications/myapp1"
+    }
+  },
+  "applications": {
+    "myapp1": {
+      "type": "python",
+      "path": "/www/",
+      "module": "app"
+    }
+  }
+}
